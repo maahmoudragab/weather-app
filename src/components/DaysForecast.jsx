@@ -137,6 +137,7 @@ export default function DaysForecast() {
 
   return (
     <Stack
+      key={language}
       dir={language === "en" ? "ltr" : "rtl"}
       sx={{ bgcolor: "#c7deff2e", p: 2, borderRadius: 5 }}
       gap={1}
