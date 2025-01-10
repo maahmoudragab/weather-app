@@ -85,6 +85,7 @@ export default function HoursForecast() {
 
   return (
     <Stack
+      key={language}
       dir={language === "en" ? "ltr" : "rtl"}
       sx={{
         bgcolor: "#c7deff2e",
