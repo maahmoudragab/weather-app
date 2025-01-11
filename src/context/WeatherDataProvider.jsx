@@ -12,7 +12,7 @@ import { WeatherDataContext, IsLoadingContext } from "./AllContexts";
 // Import Custom Hooks
 import { useCity } from "../context/CustomHooks";
 
-const API_KEY = `O4sskcz8A7ji6LIAIpUFlQ0qKfdAXAAY`;
+const API_KEY = `y9NUXIVTBa2rCA1w8KZV20Tv27CpJztk`;
 
 // Handle Date
 const dateUtils = (action, date) => {
